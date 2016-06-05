@@ -1,0 +1,16 @@
+[
+	{
+		sliderId : 011,
+		projectId : 123,
+		teamMemberId : 123,
+		weekId : 123
+		amount : 20
+	}
+	{
+		sliderId : 011,
+		projectId : 123,
+		teamMemberId : 123,
+		weekId : 123
+		amount : 20
+	}
+]
