@@ -15,6 +15,7 @@
 <section class="container">
 
 	<table id="saucer_table" class="table">
+	
 		<tr id="tableHeader">
 		
 			<th id="switcher">
@@ -28,23 +29,31 @@
 				</div>
 			</th>
 			
-			<th class="weeks" data-week="123">May 5-6</th> 
-			<th class="weeks" data-week="456">May 13-18</th>
+			<th class="weeks this_week">May 5-6</th> 
+			<th class="weeks next_week">May 13-18</th>
 		</tr>
 		<tr>
-			<td class="rowHead">Project/Team A</td>
-			<td><input type="range" value="35" max="40"></td> 
-			<td><input type="range"></td>
+			<td class="rowHead"><a href="#">Kyle Racki</a></td>
+			<td class="this_week">
+				<input id="123" type="range" value="0" max="40">
+			</td> 
+			<td class="next_week">
+				<input data-id="2" type="range" value="0" max="40">
+			</td>
 		</tr>
 		<tr>
-			<td class="rowHead">Project/Team B</td>
-			<td><input type="range"></td> 
-			<td><input type="range"></td>
+			<td class="rowHead"><a href="#">Ricky Ferris</a></td>
+			<td class="this_week">
+				<input id="456" type="range" value="0" max="40">
+			</td> 
+			<td class="next_week">
+				<input data-id="4" type="range" value="0" max="40">
+			</td>
 		</tr>
 		<tr id="tableTotal">
 			<td></td>
-			<td data-week="123">40</td> 
-			<td data-week="456">40</td>
+			<td class="this_week"></td> 
+			<td class="next_week"></td>
 		</tr>
 		
 	</table>
